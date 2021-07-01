@@ -1,0 +1,52 @@
+p { 
+    font-family: serif;
+    word-spacing: 10px;
+    color:  #722110 ;
+    font-size: large;
+    background-color: lightgrey;
+    border: black;
+}
+
+a:link {
+    color: darkblue;
+}
+a:visited{
+    color: red;
+}
+a:hover{
+    color: yellow;
+}
+
+body { 
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background:linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(9,121,30,1) 24%, rgba(0,212,255,1) 100%);
+}
+q {
+     font-size: 160%;
+    padding: 3px;
+    background-color: lightslategray;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border-left: solid red 3px;
+    
+} 
+img{
+    float: left;
+    width: 120px;
+    margin-right: 50px;
+}
+
+ul{
+    list-style-type: katakana;
+}
+
+.author{
+    position: sticky;
+    left: 10px;
+    top: 0px;
+}
+
